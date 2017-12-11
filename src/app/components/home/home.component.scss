@@ -1,0 +1,27 @@
+
+.faction-box{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    font-weight: 900; 
+    &:hover{
+        cursor: pointer;
+    }
+    .red-faction{
+        background-color: red;
+    }
+    .green-faction{
+        background-color: green;
+    }   
+    .blue-faction {
+        background-color:blue;
+    }
+    .orange-faction {
+        background-color:orange;
+    }
+}
+
+.title{
+    text-align: center;
+}
